@@ -15,10 +15,10 @@
     margin-bottom: 0;
     
     }
-@media(max-width:375px){
+@media(max-width:678px){
 .l-heading{
     
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     
 }
 .lead{
@@ -39,12 +39,14 @@
     }
     
     #showcase .showcase-content{
-        top: 110px;
-        margin-top: -100px;
+        top: 120px;
+         
+         margin-top: -50px;
+        
     }
     #who{
-        display: block;
-       text-align: center;
+    display: block;
+    text-align: center;
     }
     #who .who-img{
       display: none;
@@ -64,22 +66,12 @@
    border-top: 1px solid #333;
    } 
    
-}
-@media(max-height:667){
-    .l-heading{
-    color: red;
-        
-        
-    }
     .lead{
-        font-size: 1.2rem;
+        font-size: 1rem;
         text-align: center;
        
     }
+
 }
-@media(max-width:411px){
-    .l-heading{
-    margin-top: -350px;
-    font-size: 2rem;
-    }
-}
+
+

@@ -51,8 +51,10 @@ line-height: 1.1rem;
 }
 /* pragrphs */
 .lead{
-font-size: 2rem;
-margin-bottom: 2rem;    
+font-size: 1.4rem;
+margin-bottom: 2rem;   
+line-height: 1.2;
+
 }
 .py-1{padding: 1.5rem 0;}
 .py-2{padding: 2rem 0;}
@@ -138,7 +140,7 @@ top:65px;
 left: 0;
 right: 0;
 bottom: 0;
-background: rgba(0, 0, 0, 0.5);
+background: rgba(0, 0, 0, 0.9);
     
 }
 /* what we do */
@@ -167,8 +169,16 @@ background: rgba(0, 0, 0, 0.5);
 background: url("../img/people.jpg") no-repeat
 center center/cover;
 }
-#clients .items{
-    display: flex;
+
+#clients .social i{
+    display: inline-block;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    border: 1px solid #285d6b;
+    border-radius: 50%;
+    padding: 1rem;
+    color: #333;
+
 }
 #clients .items img{
 display: block;

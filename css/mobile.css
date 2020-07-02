@@ -10,9 +10,10 @@
     
     }
     #what .items .item i{
-        margin-left: 1.3rem;
-        align-self: start;
-        margin-bottom: 0;
+    display: flex;
+    margin-right: 1.3rem;
+    align-self:center;
+    margin-bottom: 0;
     
     }
 @media(max-width:678px){
@@ -21,8 +22,9 @@
     font-size: 1.2rem;
     
 }
+
 .lead{
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-align: center;
 }
 #navbar {
@@ -73,5 +75,6 @@
     }
 
 }
+
 
 
